@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://api1.api.cbtraderbd.xyz"
+API_URL = "https://api1.api.cbtradersbd.com"
 
 def stream_pocket_candles(pair="EURUSD_otc"):
     print(f"Connecting to PocketOption WebSocket stream for {pair} at {API_URL}...")
